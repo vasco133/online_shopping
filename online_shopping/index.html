@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Shopping</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .product {
+      width: 200px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    .product img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .product h3 {
+      margin-top: 10px;
+    }
+
+    .product p {
+      margin-top: 5px;
+    }
+
+    #homepage{
+        width: 100%px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    #homepage button{
+        width: 100px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+        
+    }
+
+    #category {
+        width: 100%px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: burlywood;
+    }
+    .image{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    #category button {
+      width: 100px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    #category form {
+      width: 200px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    
+    #about-us{
+        width: 100%px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+        
+    }
+  </style>
+</head>
+<body>
+
+  <div id="homepage">
+    <h1>Home Page</h1>
+    <button>Product List</button>
+    <button>Purchased</button>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Search..." name="search">
+                <input type="submit" value="Search">
+            </form>
+        </div>
+  </div>
+  
+
+  <div id="category">
+
+    <div class="image">
+        <form action="submit-page.html" method="post">
+            <input type="image" src="mensapparel.png" alt="Button Image" name="button" value="submit">
+        </form>
+        <form action="submit-page.html" method="post">
+            <input type="image" src="mobilegadgets.png" alt="Button Image" name="button" value="submit">
+        </form>
+        <form action="submit-page.html" method="post">
+            <input type="image" src="womensapparel.png" alt="Button Image" name="button" value="submit">
+        </form>
+        <form action="submit-page.html" method="post">
+            <input type="image" src="personalhealthcare.png" alt="Button Image" name="button" value="submit">
+        </form>
+        <form action="submit-page.html" method="post">
+            <input type="image" src="laptop.png" alt="Button Image" name="button" value="submit">
+        </form>
+        <form action="submit-page.html" method="post">
+            <input type="image" src="home.png" alt="Button Image" name="button" value="submit">
+        </form>
+        <form action="submit-page.html" method="post">
+            <input type="image" src="menshoes.png" alt="Button Image" name="button" value="submit">
+        </form>
+        <form action="submit-page.html" method="post">
+            <input type="image" src="womenacc.png" alt="Button Image" name="button" value="submit">
+        </form>
+    </div>
+  </div>
+
+  <div id="about-us">
+    <h1>About</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sunt quidem minus nam, accusantium optio nisi est aliquam sapiente cupiditate?</p>
+    <h3>Share to</h3>
+    </div>
+
+  
+</body>
+</html>
